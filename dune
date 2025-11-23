@@ -1,0 +1,7 @@
+(executable
+ (name crop_image)
+ (libraries camlimages.core camlimages.png))
+
+(executable
+ (name recognize)
+ (libraries camlimages.core camlimages.png))
